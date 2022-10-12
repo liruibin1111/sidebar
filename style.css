@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #6880b5;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sidebar-top {
+  font-size: x-large;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 40px;
+}
+
+.sidebar-center {
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(128, 170, 247);
+  padding: 10px;
+}
