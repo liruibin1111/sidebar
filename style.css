@@ -10,6 +10,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  border-right: #d8d8d8;
+  border-style: solid;
+  border-top: 0;
+  border-left: 0;
+  border-right-width: 1px;
 }
 
 .sidebar-top {
@@ -18,7 +23,6 @@
   padding-top: 20px;
   display: flex;
   align-items: center;
-  cursor: pointer;
   padding-bottom: 50px;
 }
 
@@ -28,11 +32,11 @@
 
 .list {
   list-style: none;
+  padding: 0;
 }
 
 .list-item {
   margin-bottom: 2px;
-  margin-left: 10px;
   display: flex;
   align-items: center;
   padding: 10px;
@@ -40,6 +44,7 @@
 
 .list-item-icon {
   width: 35px;
+  padding-left: 30px;
 }
 
 .list-item:hover,
@@ -47,4 +52,5 @@
   background-color: #e0e9ff;
   color: #2a57cb;
   font-weight: bold;
+  cursor: pointer;
 }
